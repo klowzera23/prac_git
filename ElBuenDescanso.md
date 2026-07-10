@@ -14,9 +14,7 @@
 
 
 
-
-
-4. Funcionalidades del Producto
+4. Funcionalidades del Producto modificado por Maximo
 El sistema provee las siguientes funcionalidades principales:
 • F1 — Solicitud y Gestión de Afiliación Web
 • F2 — Gestión de Socios y Núcleo Familiar
@@ -54,7 +52,7 @@ F1 a F5 completo
 
 &#x20;  - Sistema operativo servidor: Linux Ubuntu Server 22.04 LTS.
 
-&#x20;  - Conectividad: Requiere conexión a Internet para acceso externo de socios e interesados. 
+&#x20;  - Conectividad: Requiere conexión a Internet para acceso externo de socios e interesados.
 
 &#x20;  - Seguridad: HTTPS obligatorio. Autenticación 2FA. Contraseñas almacenadas como hash
 
