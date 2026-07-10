@@ -24,6 +24,14 @@ Beneficios para el negocio:
 
 • Simplificar el tramite de afiliacion, dejando que cualquier persona interesada lo inicie por su cuenta desde la web.
 
+4. Funcionalidades del Producto
+El sistema provee las siguientes funcionalidades principales:
+• F1 Solicitud y Gestión de Afiliación Web
+• F2  Gestión de Socios y Núcleo Familiar
+• F3  Registro y Control de Pagos
+• F4  Gestión de Espacios Funerarios
+• F5 —Autenticación y Auditoría de Accesos
+5. Clases y Características de Usuarios
 • Contar con un registro unico y trazable de los socios y sus respectivos nucleos familiares.
 
 • Automatizar el seguimiento de los pagos de cuotas, emitiendo el comprobante correspondiente.
@@ -74,9 +82,8 @@ Personal administrativo. Gestiona socios, pagos y espacios.
 Medio
 F1 (aprobación), F2, F3, F4
 Administrador
-Empleado con privilegios extendidos. Gestiona empleados y auditoría.
+Empleado con privilegios extendidos. Gestiona empleados y auditoria
 Alto
 F1 a F5 completo
-
 
 
