@@ -86,7 +86,7 @@ Administrador
 Empleado con privilegios extendidos. Gestiona empleados y auditoria
 Alto
 F1 a F5 completo
-6. Entorno Operativo
+5. Entorno Operativo
 
 &#x20;  - Plataforma: Aplicación web (cliente-servidor)
 
@@ -96,7 +96,7 @@ F1 a F5 completo
 
 &#x20;  - Sistema operativo servidor: Linux Ubuntu Server 22.04 LTS.
 
-&#x20;  - Conectividad: Requiere conexión a Internet para acceso externo de socios e interesados. 
+&#x20;  - Conectividad: Requiere conexión a Internet para acceso externo de socios e interesados.
 
 &#x20;  - Seguridad: HTTPS obligatorio. Autenticación 2FA. Contraseñas almacenadas como hash
 
@@ -362,4 +362,84 @@ El empleado busca un socio por CI o nombre y selecciona la operación deseada.
 Comportamiento esperado del sistema
 
 1\. Muestra datos completos del socio y su núcleo familiar.2. Permite modificar email del socio.3. Permite agregar un miembro: valida que no sea titular de otro núcleo.4. Permite quitar un miembro.5. Guarda cambios y muestra confirmación.
+
+
+
+
+
+7.3. RF3 Registro y Control de Pagos
+
+Código
+
+RF3
+
+Descripción
+
+Este sistema permite que el empleado pueda registrar el pago de de cuota de un socio, generando un numero de comprobante unico automaticamente
+
+Prioridad
+
+Alta
+
+Acciones iniciadoras / Estímulos
+
+El empleado selecciona un socio, ingresa el monto y confirma el pago.
+
+Comportamiento esperado del sistema
+
+1\. Valida monto mayor a cero; si no, muestra error.2 Genera comprobante único automáticamente. 3 Registra fecha de aprobación . 4 Asocia el pago al socio y al empleado que lo registra.5. El socio consulta su historial desde el portal.
+
+
+
+
+
+7.4. RF4 Gestión de Espacios Funerarios
+
+Código
+
+RF4
+
+Descripción
+
+Este sistema permite al administrador registrar y consultar los espacios funerarios disponibles(Parcela, Panteon, Nicho) y poder asignarlos a socios
+
+Prioridad
+
+Media
+
+Acciones iniciadoras / Estímulos
+
+El administrador accede al modulo de Espacios y elige agregar o asignar
+
+Comportamiento esperado del sistema
+
+1\. Valida que el tipo sea Parcela, Panteón o Nicho.2. Valida que la ubicación no exista previamente. 3 Permite buscar espacios por tipo.4  Permite asignar un espacio a uno o más socios.5  Muestra listado con estado de asignacion 
+
+
+
+
+
+7.5. RF5 Autenticación y Auditoría de Accesos
+
+Código
+
+RF5
+
+Descripción
+
+Este sistema gestiona el acceso de los empleados y socios mediante usuario/contraseña y pudiendo agregar un 2FA, registrado cada sesion con una fecha y hora, de entrada y de salida.
+
+Prioridad
+
+Alta
+
+Acciones iniciadoras / Estímulos
+
+El usuario ingresa sus credenciales en la pantalla de login.
+
+Comportamiento esperado del sistema
+
+1\. Valida credenciales contra LOG\_SYSTEM (contraseña en hash).2 Si 2FA activo, solicita código de segundo factor.3 Registra entrada con fecha/hora.4. Al cerrar sesión, registra la salida.5 El administrador consulta el log completo. 6 Las contraseñas nunca en texto plano.
+
+
 
