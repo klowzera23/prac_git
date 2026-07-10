@@ -63,7 +63,7 @@ Objetivos y metas:
 
 &#x20;.Mateo Blanco
 
-3\. Funcionalidades del Producto
+3\. Funcionalidades del Producto modificado por Mateo
 El sistema provee las siguientes funcionalidades principales:
 • F1 — Solicitud y Gestión de Afiliación Web
 • F2 — Gestión de Socios y Núcleo Familiar
@@ -422,7 +422,7 @@ El administrador accede al modulo de Espacios y elige agregar o asignar
 
 Comportamiento esperado del sistema
 
-1\. Valida que el tipo sea Parcela, Panteón o Nicho.2. Valida que la ubicación no exista previamente. 3 Permite buscar espacios por tipo.4  Permite asignar un espacio a uno o más socios.5  Muestra listado con estado de asignacion 
+1\. Valida que el tipo sea Parcela, Panteón o Nicho.2. Valida que la ubicación no exista previamente. 3 Permite buscar espacios por tipo.4  Permite asignar un espacio a uno o más socios.5  Muestra listado con estado de asignacion
 
 
 
@@ -449,6 +449,4 @@ El usuario ingresa sus credenciales en la pantalla de login.
 Comportamiento esperado del sistema
 
 1\. Valida credenciales contra LOG\_SYSTEM (contraseña en hash).2 Si 2FA activo, solicita código de segundo factor.3 Registra entrada con fecha/hora.4. Al cerrar sesión, registra la salida.5 El administrador consulta el log completo. 6 Las contraseñas nunca en texto plano.
-
-
 
