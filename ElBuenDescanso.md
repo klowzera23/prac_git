@@ -1,4 +1,4 @@
-* Bruno Acosta 
+* Bruno Acosta
 
 1\. Introduccion
 
@@ -55,12 +55,12 @@ Objetivos y metas:
 &#x20;.Mateo Blanco
 
 3\. Funcionalidades del Producto
-	El sistema provee las siguientes funcionalidades principales:
-	• F1 — Solicitud y Gestión de Afiliación Web
-	• F2 — Gestión de Socios y Núcleo Familiar
-	• F3 — Registro y Control de Pagos
-	• F4 — Gestión de Espacios Funerarios
-	• F5 — Autenticación y Auditoría de Accesos
+El sistema provee las siguientes funcionalidades principales:
+• F1 — Solicitud y Gestión de Afiliación Web
+• F2 — Gestión de Socios y Núcleo Familiar
+• F3 — Registro y Control de Pagos
+• F4 — Gestión de Espacios Funerarios
+• F5 — Autenticación y Auditoría de Accesos
 
 
 
@@ -84,6 +84,145 @@ F1 (aprobación), F2, F3, F4
 Administrador
 Empleado con privilegios extendidos. Gestiona empleados y auditoria
 Alto
-F1 a F5 completo
+F1 a F5 complete
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7\. Requerimientos Funcionales
+
+7.1. RF1 Solicitud y Gestión de Afiliación Web
+
+Código
+
+RF1
+
+Descripción
+
+Este sistema permite que cualquier persona pueda completar y enviar una solicitud de afiliacion online. Un empleado la revisa y la puede aprobar o rechazar. La aprobacion genera automaticamente el alta del solicitante como un socio
+
+Prioridad
+
+Alta
+
+Acciones iniciadoras / Estímulos
+
+El interesado accede al formulario público e ingresa sus datos (CI, nombre, email, etc)
+
+Comportamiento esperado del sistema
+
+1\. Valida campos obligatorios,  si hay error, muestra un mensaje.2. Registra la solicitud con estado "Pendiente" .3. El empleado la revisa y registra la fecha de revisión.4. Si aprueba: crea PERSONA y SOCIO, cambia estado a "Aprobada" .5. Si rechaza: estado pasa a "Rechazada". En ambos casos se le notifica al solicitanto
+
+
+
+
+
+7.2. RF2 Gestión de Socios y Núcleo Familiar
+
+Código
+
+RF2
+
+Descripción
+
+Este sistema le permite al empleado gestionar socios activos y administrar los vinculos a un socio titular, indicando el tipo de relacion
+
+Prioridad
+
+Alta
+
+Acciones iniciadoras / Estímulos
+
+El empleado busca un socio por CI o nombre y selecciona la operación deseada.
+
+Comportamiento esperado del sistema
+
+1\. Muestra datos completos del socio y su núcleo familiar.2. Permite modificar email del socio.3. Permite agregar un miembro: valida que no sea titular de otro núcleo.4. Permite quitar un miembro.5. Guarda cambios y muestra confirmación.
 
