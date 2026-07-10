@@ -22,9 +22,18 @@ unificar en una sola plataforma la administración de socios, las solicitudes de
 
 Beneficios para el negocio:
 
+<<<<<<< HEAD
+
+
+
+
+
+4. Funcionalidades del Producto modificado por Maximo
+=======
 • Simplificar el tramite de afiliacion, dejando que cualquier persona interesada lo inicie por su cuenta desde la web.
 
 4. Funcionalidades del Producto
+>>>>>>> 8004de53a1059a0a5b2598138659ef8388082fec
 El sistema provee las siguientes funcionalidades principales:
 • F1 Solicitud y Gestión de Afiliación Web
 • F2  Gestión de Socios y Núcleo Familiar
